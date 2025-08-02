@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center; 
+  margin-top: 30px;
+  background: #7D98A1;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#board {
+  display: inline-block;
+  
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 2em;
+  font-weight:bold ;
+  margin: 2px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px; 
+  cursor: pointer;
+  vertical-align: top;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#reset {
+  border-radius: 8px;
+  border: none;                
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  appearance: none;            
+  -webkit-appearance: none;    
+  -moz-appearance: none;       
+}
